@@ -25,6 +25,10 @@ class HomeScreen extends StatelessWidget {
               context.push("/counter-bloc");
             },
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Divider(),
+          ),
         ],
       ),
     );
